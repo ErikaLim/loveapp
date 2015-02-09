@@ -49,7 +49,7 @@ group :development, :test do
   gem 'binding_of_caller'
   gem 'jasmine'
 end
-
+gem 'rails_12factor', group: :production
 gem 'bootstrap-sass', '~>3.3.1'
 gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass', branch: 'v1.0beta'
 # Use unicorn as the app server
